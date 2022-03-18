@@ -20,8 +20,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         //This adds the parse code to connect my database to the project
         let parseConfig = ParseClientConfiguration {
-                $0.applicationId = "xw4nv4qB8jPU0xhY2rIftkZUJxa4JWfy7OiIkNaB" // AppId
-                $0.clientKey = "Ag4wAOcIdhRtNJhmVIe0EcAHtVoOeRu3LATi7Iv0" // <- CLientKey
+                $0.applicationId = "cxlH8x6hlCtRk0tgOgLnWHc42QJpNQeP3ITm9hoa" // AppId
+                $0.clientKey = "7IgJZvccdo1ss2Qo0FcPAdzLNSjrG4eDwiCBSqeq" // <- CLientKey
                 $0.server = "https://parseapi.back4app.com"
             }
             Parse.initialize(with: parseConfig)
