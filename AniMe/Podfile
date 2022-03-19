@@ -8,5 +8,6 @@ target 'AniMe' do
   # Pods for AniMe
   pod 'Parse'
   pod 'AlamofireImage'
+  pod 'MessageInputBar'
 
 end
