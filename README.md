@@ -80,7 +80,7 @@ AniMe is a social networking app to share, discover, and interact with members o
    * Collection view of shows according to queried letters that were input.   
 
 ## Digital Wireframes
-<img src="https://imgur.com/a/egOXyr8" width=600>
+<img src="https://i.imgur.com/DFyUhic.jpeg" width=600>
 
 ## Schema 
 ### Models
