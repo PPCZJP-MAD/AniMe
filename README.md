@@ -56,7 +56,7 @@ AniMe is a social networking app to share, discover, and interact with members o
 * Creation 
    * User can create a new post on the Home feed.
 * Search
-   * User can search for a particular anime based on name in Discovery tab.   
+   * User can search for a particular anime based on name in Search tab.   
 
 ### 3. Navigation
 
@@ -79,19 +79,41 @@ AniMe is a social networking app to share, discover, and interact with members o
 * Search Screen
    * Collection view of shows according to queried letters that were input.   
 
-## Wireframes
-[Add picture of your hand sketched wireframes in this section]
-<img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
-
-### [BONUS] Digital Wireframes & Mockups
-
-### [BONUS] Interactive Prototype
+## Digital Wireframes
+<img src="https://imgur.com/a/egOXyr8" width=600>
 
 ## Schema 
-[This section will be completed in Unit 9]
 ### Models
-[Add table of models]
+#### Post
+
+   | Property       | Type     | Description |
+   | -------------  | -------- | ------------|
+   | objectId       | String   | unique id for user posts |
+   | author         | Pointer to User| image author |
+   | animeId        | String   | unique id for anime referenced in post|
+   | post           | String   | post caption by author |
+   | postlikesCount | Number   | number of likes for the post |
+   | animeLikesCount| Number   | number of likes for that anime |
+   | watchlistCount | Number   | number of users that added that anime to their watchlist|
+   
 ### Networking
-- [Add list of network requests by screen ]
-- [Create basic snippets for each Parse network request]
-- [OPTIONAL: List endpoints if using existing API such as Yelp]
+#### List of network requests by screen
+    - Sign In Screen
+        - (Read/GET) Query with username and password
+    - Sign Up Screen
+        - (Create/POST) Create a new user
+    - Home Feed Screen
+        - (Read/GET) Query all posts where user is author or where author is on user's following list
+        - (Create/POST) Create a new like on a post
+        - (Delete) Delete existing like
+        - (Create/POST) Create a new comment on a post
+        - (Delete) Delete existing comment
+        - (Delete) Delete post if author is user
+    - Create Post Screen
+        - (Create/POST) Create a new post object
+    - Profile Screen
+        - (Read/GET) Query logged in user object
+        - (Update/PUT) Update user profile image
+        - (Read/GET) Query all posts made by user
+        - (Read/GET) Query all animes liked by user
+        - (Read/GET) Query all animes watchlisted by user
