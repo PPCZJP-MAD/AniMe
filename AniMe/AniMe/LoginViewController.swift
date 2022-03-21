@@ -1,19 +1,21 @@
 //
-//  ViewController.swift
+//  LoginViewController.swift
 //  AniMe
 //
-//  Created by Paul Pasco on 3/14/22.
+//  Created by Carlos Zamora on 3/21/22.
 //
 
 import UIKit
 
-class ViewController: UIViewController {
+class LoginViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+
         // Do any additional setup after loading the view.
     }
+    
 
+  
 
 }
-
