@@ -42,6 +42,9 @@
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Sign in"/>
+                                <connections>
+                                    <action selector="onSignIn:" destination="16F-vm-uqd" eventType="touchUpInside" id="1cZ-en-9kR"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleAspectFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TfO-ED-9mC">
                                 <rect key="frame" x="31" y="526" width="330" height="49"/>
@@ -49,6 +52,9 @@
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Sign up"/>
+                                <connections>
+                                    <action selector="onSignUp:" destination="16F-vm-uqd" eventType="touchUpInside" id="UIV-xU-KVN"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Sign In" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iCc-Dh-Y9R">
                                 <rect key="frame" x="37" y="166" width="99" height="37"/>
@@ -69,6 +75,11 @@
                         <viewLayoutGuide key="safeArea" id="CCc-9K-Q8O"/>
                         <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
+                    <connections>
+                        <outlet property="passwordField" destination="9DU-sB-ds0" id="LWY-Dp-qQg"/>
+                        <outlet property="usernameField" destination="SB5-bL-0FC" id="MbT-sP-OGB"/>
+                        <segue destination="ys0-et-N6L" kind="presentation" identifier="loginSegue" id="ehY-ff-f07"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jh9-VL-d2d" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -116,7 +127,7 @@
                 <navigationController id="ys0-et-N6L" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Item" id="GCT-qB-fSN"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="clY-Oi-Gd4">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
@@ -132,7 +143,7 @@
             <objects>
                 <viewController id="ejw-RF-j8j" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="L2D-Fa-N0R">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="eqe-eb-B95"/>
                         <color key="backgroundColor" systemColor="systemGray2Color"/>
@@ -193,6 +204,9 @@
             <point key="canvasLocation" x="2761" y="108"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="ehY-ff-f07"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <systemColor name="systemGray2Color">
             <color red="0.68235294117647061" green="0.68235294117647061" blue="0.69803921568627447" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
