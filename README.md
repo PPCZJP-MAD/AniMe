@@ -1,6 +1,3 @@
-Original App Design Project - README Template
-===
-
 # AniMe
 
 ## Table of Contents
@@ -29,8 +26,8 @@ AniMe is a social networking app to share, discover, and interact with members o
 
 **Required Must-have Stories**
 
-* User can use tab-bar navigation with Home, Discover, and Profile screens.
-* User can log-in.
+* [x] User can use tab-bar navigation with Home, Discover, and Profile screens.
+* [x] User can log-in.
 * User can log-out
 * Discovery screen that displays animes A-Z.
 * Profile screen with currently watching, to watch, favorites list. 
