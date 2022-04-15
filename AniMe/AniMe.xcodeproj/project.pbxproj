@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		5EEF9B54EED8C4758CCEEC9C /* Pods_AniMe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BB5CAFCFFC8773529BC4F9B /* Pods_AniMe.framework */; };
 		C8B7ADAA27E8C1AD00891C51 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B7ADA927E8C1AD00891C51 /* LoginViewController.swift */; };
+		DA104F4B2809DE5A00A08DC4 /* NewPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA104F4A2809DE5A00A08DC4 /* NewPostViewController.swift */; };
 		DA1AF93A27DFC88B00022CD7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1AF93927DFC88B00022CD7 /* AppDelegate.swift */; };
 		DA1AF93C27DFC88B00022CD7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1AF93B27DFC88B00022CD7 /* SceneDelegate.swift */; };
 		DA1AF94127DFC88B00022CD7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA1AF93F27DFC88B00022CD7 /* Main.storyboard */; };
@@ -23,6 +24,7 @@
 		78CFCDC0B63B54AD43021892 /* Pods-AniMe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AniMe.release.xcconfig"; path = "Target Support Files/Pods-AniMe/Pods-AniMe.release.xcconfig"; sourceTree = "<group>"; };
 		978E912CB0CE96F14BE7830F /* Pods-AniMe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AniMe.debug.xcconfig"; path = "Target Support Files/Pods-AniMe/Pods-AniMe.debug.xcconfig"; sourceTree = "<group>"; };
 		C8B7ADA927E8C1AD00891C51 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		DA104F4A2809DE5A00A08DC4 /* NewPostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPostViewController.swift; sourceTree = "<group>"; };
 		DA1AF93627DFC88B00022CD7 /* AniMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AniMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA1AF93927DFC88B00022CD7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DA1AF93B27DFC88B00022CD7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -87,6 +89,7 @@
 				DA1AF93927DFC88B00022CD7 /* AppDelegate.swift */,
 				DA1AF93B27DFC88B00022CD7 /* SceneDelegate.swift */,
 				DA1AF93F27DFC88B00022CD7 /* Main.storyboard */,
+				DA104F4A2809DE5A00A08DC4 /* NewPostViewController.swift */,
 				DA62DD8827FFEA5E006CA5E4 /* HomeViewController.swift */,
 				DA62DD8627FFE8EE006CA5E4 /* PostCell.swift */,
 				DA1AF94227DFC88D00022CD7 /* Assets.xcassets */,
@@ -217,6 +220,7 @@
 				DA1AF93A27DFC88B00022CD7 /* AppDelegate.swift in Sources */,
 				DA1AF93C27DFC88B00022CD7 /* SceneDelegate.swift in Sources */,
 				DA62DD8727FFE8EE006CA5E4 /* PostCell.swift in Sources */,
+				DA104F4B2809DE5A00A08DC4 /* NewPostViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
