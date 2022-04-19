@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		54A0D408280BD3060042AD84 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A0D407280BD3050042AD84 /* SignUpViewController.swift */; };
 		5EEF9B54EED8C4758CCEEC9C /* Pods_AniMe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BB5CAFCFFC8773529BC4F9B /* Pods_AniMe.framework */; };
 		C8B7ADAA27E8C1AD00891C51 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B7ADA927E8C1AD00891C51 /* LoginViewController.swift */; };
 		DA104F4B2809DE5A00A08DC4 /* NewPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA104F4A2809DE5A00A08DC4 /* NewPostViewController.swift */; };
@@ -21,6 +22,7 @@
 
 /* Begin PBXFileReference section */
 		0BB5CAFCFFC8773529BC4F9B /* Pods_AniMe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AniMe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		54A0D407280BD3050042AD84 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		78CFCDC0B63B54AD43021892 /* Pods-AniMe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AniMe.release.xcconfig"; path = "Target Support Files/Pods-AniMe/Pods-AniMe.release.xcconfig"; sourceTree = "<group>"; };
 		978E912CB0CE96F14BE7830F /* Pods-AniMe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AniMe.debug.xcconfig"; path = "Target Support Files/Pods-AniMe/Pods-AniMe.debug.xcconfig"; sourceTree = "<group>"; };
 		C8B7ADA927E8C1AD00891C51 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -96,6 +98,7 @@
 				DA1AF94427DFC88D00022CD7 /* LaunchScreen.storyboard */,
 				C8B7ADA927E8C1AD00891C51 /* LoginViewController.swift */,
 				DA1AF94727DFC88D00022CD7 /* Info.plist */,
+				54A0D407280BD3050042AD84 /* SignUpViewController.swift */,
 			);
 			path = AniMe;
 			sourceTree = "<group>";
@@ -216,6 +219,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA62DD8927FFEA5E006CA5E4 /* HomeViewController.swift in Sources */,
+				54A0D408280BD3060042AD84 /* SignUpViewController.swift in Sources */,
 				C8B7ADAA27E8C1AD00891C51 /* LoginViewController.swift in Sources */,
 				DA1AF93A27DFC88B00022CD7 /* AppDelegate.swift in Sources */,
 				DA1AF93C27DFC88B00022CD7 /* SceneDelegate.swift in Sources */,
@@ -378,6 +382,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -407,6 +412,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
