@@ -17,6 +17,7 @@ class HomeViewController: UIViewController, UITableViewDataSource, UITableViewDe
         
         
         cell.usernameLabel!.text = "row: \(indexPath.row)"
+        cell.postContentLabel!.text="row: \(indexPath.row)"
         
         return cell
     }
